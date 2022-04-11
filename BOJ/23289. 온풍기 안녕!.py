@@ -13,7 +13,7 @@ def check_over_K():
             return False
 
     return True
-
+ 
 # 벽을 어떻게 저장할지 -> 어느 지점과 어느 지점 사이의 벽
 
 
