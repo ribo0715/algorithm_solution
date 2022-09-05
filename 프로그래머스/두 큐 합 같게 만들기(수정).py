@@ -1,6 +1,6 @@
 # 두 큐 합 같게 만들기
 """
-두 개의 큐 -> 한쪽에서 빼고(pop) 다른쪽에 넣기(insert)
+두 개의 큐 -> 한쪽에서 빼고(pop) 다른쪽에 넣기(insert) -> deque 이용
 -> 각 큐의 원소 합이 같아질때까지
 
 단순한 bfs로 하면 2 ^ n 이 되므로 이건 아닌듯...
@@ -42,6 +42,5 @@ def solution(queue1, queue2):
         else:
             return answer
         answer += 1
+        
     return -1
-
-    return answer
